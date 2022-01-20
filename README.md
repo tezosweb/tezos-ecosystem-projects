@@ -71,6 +71,6 @@ Please use only these tags and watch out for typos. Excluding tags is also an op
 
 All images should be roughly 500x500px. .svg is strongly preferred but other options include .png, .jpg, and .jpeg. These logos will not only appear in the cards on tezos.com/ecosystem but also much larger on each individual project's page, so size accordingly.
 
-### Disclaimer
+## Disclaimer
 
 This page and the submission process is currently in beta. While it is possible to submit projects for listing consideration currently, final Application Criteria for listing is expected to be live in early Q2 2022, at which point the submission and listing process will become fully active. 
