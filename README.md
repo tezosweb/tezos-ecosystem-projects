@@ -62,7 +62,7 @@ devtools
 nft
 gaming
 did
-stablecoin
+stablecoins
 ```
 
 Please use only these tags and watch out for typos. Excluding tags is also an option. 
