@@ -1,13 +1,13 @@
 ---
 slug: "alterhen"
 date: "2022-02-01"
-project: "a\terhen"
+project: "a\\terhen"
 logline: "Clean NFT exhibition space and marketplace."
 logo: "alterhen_white_full_logo.png"
 tags: "nft"
 status: "active"
-website: "www.alterhen.art"
-twitter: "www.twitter.com/alterhen"
+website: "https://alterhen.art/"
+twitter: "https://www.twitter.com/alterhen"
 ---
 
 a\terHEN introduces a new cultural practice in the art world.
