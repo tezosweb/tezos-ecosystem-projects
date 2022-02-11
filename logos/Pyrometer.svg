@@ -1,28 +1,13 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 25.4.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 500 500" style="enable-background:new 0 0 500 500;" xml:space="preserve">
-<style type="text/css">
-	.st0{fill:url(#SVGID_1_);}
-	.st1{opacity:0.75;}
-	.st2{fill:#FFFFFF;}
-</style>
-<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="-13.7847" y1="-13.0066" x2="560.52" y2="559.6041">
-	<stop  offset="0" style="stop-color:#0F61FF"/>
-	<stop  offset="0.16" style="stop-color:#1360FC"/>
-	<stop  offset="0.3278" style="stop-color:#205CF4"/>
-	<stop  offset="0.499" style="stop-color:#3555E6"/>
-	<stop  offset="0.6728" style="stop-color:#524BD2"/>
-	<stop  offset="0.8466" style="stop-color:#783FB9"/>
-	<stop  offset="1" style="stop-color:#9F329F"/>
-</linearGradient>
-<rect class="st0" width="500" height="500"/>
-<g class="st1">
-	<g>
-		<path class="st2" d="M230.7,311.7h-23.8V188.3h42.2c6.7,0,12.8,1,18.2,2.9c5.4,2,10.1,4.6,13.9,8.1c3.8,3.5,6.7,7.7,8.8,12.5
-			c2.1,4.9,3.1,10.3,3.1,16.2c0,5.5-1,10.7-3.1,15.3c-2.1,4.7-5,8.7-8.8,12.1c-3.8,3.4-8.5,6.1-13.9,8.1c-5.4,1.9-11.5,2.9-18.2,2.9
-			h-18.4V311.7z M249.1,247.1c3.4,0,6.3-0.5,8.8-1.5c2.5-1,4.6-2.4,6.3-4.2c1.6-1.8,2.9-3.8,3.7-6.1c0.8-2.3,1.2-4.7,1.2-7.2
-			c0-2.9-0.4-5.6-1.2-8.1c-0.8-2.5-2-4.7-3.7-6.5c-1.7-1.9-3.8-3.3-6.3-4.4c-2.5-1.1-5.4-1.6-8.8-1.6h-18.4v39.5H249.1z"/>
-	</g>
-</g>
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20010904//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<!-- Created using Krita: https://krita.org -->
+<svg xmlns="http://www.w3.org/2000/svg" 
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:krita="http://krita.org/namespaces/svg/krita"
+    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+    width="54.72pt"
+    height="54.72pt"
+    viewBox="0 0 54.72 54.72">
+<defs/>
+<rect id="shape0" transform="matrix(0.999999955383659 0 0 0.999999955383659 0 0)" fill="#fe8b00" fill-rule="evenodd" stroke-opacity="0" stroke="#000000" stroke-width="0" stroke-linecap="square" stroke-linejoin="bevel" width="54.72" height="54.72" rx="6.26240013970269" ry="6.26240013970269"/><rect id="shape01" transform="matrix(0.999999955383659 0 0 0.999999955383659 5.90911661881115 38.471619116448)" fill="#834337" fill-rule="evenodd" stroke-opacity="0" stroke="#000000" stroke-width="0" stroke-linecap="square" stroke-linejoin="bevel" width="43.92" height="8.94588235294117"/><path id="shape1" transform="matrix(0.999999955383659 0 0 0.999999955383659 10.7763068644836 5.87358632450816)" fill="#fedabb" fill-rule="evenodd" stroke-opacity="0" stroke="#000000" stroke-width="0" stroke-linecap="square" stroke-linejoin="bevel" d="M0 32.3031C2.31805 10.239 4.23 -0.52219 5.73585 0.0194681C6.86678 10.5608 7.14115 21.446 7.48537 32.3031L12.6311 18.1405C15.436 12.3218 19.9236 9.31709 23.9957 8.11596C16.383 18.7092 18.6924 24.7208 17.4516 32.6496C20.5021 26.4351 23.6692 18.3233 28.1301 14.4673C32.3347 9.85143 33.5598 22.4344 36.0016 24.5686C28.8482 26.326 30.9287 14.0578 27.7029 27.201C27.0193 31.132 28.7656 30.6687 32.2595 31.9607L32.0744 32.395C32.23 32.5239 21.5386 32.4933 0 32.3031Z" sodipodi:nodetypes="cccccccccccc"/>
 </svg>
