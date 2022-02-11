@@ -46,6 +46,8 @@ The following are the optional and required fields in the Markdown frontmatter:
 - **(required)** `website`: Project website URL, including HTTP/HTTPS (required)
 - **(optional)** `twitter`: Project Twitter URL, including HTTP/HTTPS (optional)
 
+*Note: If any of your text in the above fields includes an escape character, please unescape.*
+
 If you are not including a Twitter URL, simply leave the field blank.
 
 Please include a one to two paragraph description below the three dashes – these descriptions will be featured on your dedicated project page. 

@@ -2,7 +2,7 @@
 slug: "Rocket Monsters"
 date: "2021-8-01"
 project: "Rocket Monsters"
-logline: "Rocket Monsters Play to Earn built on Unreal Engine 5.”
+logline: "Rocket Monsters Play to Earn built on Unreal Engine 5."
 logo: "rocketmonsters.png"
 tags: "gaming"
 status: "active"

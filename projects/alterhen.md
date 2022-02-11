@@ -1,7 +1,7 @@
 ---
 slug: "alterhen"
 date: "2022-02-01"
-project: "a\terhen"
+project: "a\\terhen"
 logline: "Clean NFT exhibition space and marketplace."
 logo: "alterhen_white_full_logo.png"
 tags: "nft"
