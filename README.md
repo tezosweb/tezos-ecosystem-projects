@@ -2,6 +2,7 @@
 
 This repository serves as the source for the Tezos Ecosystem page at https://tezos.com/ecosystem.
 
+*Note: This page and the submission process is currently in beta. While it is possible to submit projects for listing consideration currently, final Application Criteria for listing is expected to be live in early Q2 2022, at which point the submission and listing process will become fully active.*
 
 # Contributions
 
@@ -40,10 +41,10 @@ The following are the optional and required fields in the Markdown frontmatter:
 - **(required)** `project`: Name of your project
 - **(required)** `logline`: One-sentence project description
 - **(required)** `logo`: Name and file extension of your project's logo (should match what you add to the `logos` folder)
-- **(required)** `tags`: Comma-separated list of tags that apply to your project (see below)
+- **(required)** `tags`: Comma-separated list of zero, one, or more tags that apply to your project. Please include only tags from the list below.
 - **(required)** `status`: One of the following: `under construction`, `active`, or `inactive`
-- **(required)** `website`: Project website URL (required)
-- **(optional)** `twitter`: Project Twitter URL (optional)
+- **(required)** `website`: Project website URL, including HTTP/HTTPS (required)
+- **(optional)** `twitter`: Project Twitter URL, including HTTP/HTTPS (optional)
 
 If you are not including a Twitter URL, simply leave the field blank.
 
@@ -70,7 +71,3 @@ Please use only these tags and watch out for typos. Excluding tags is also an op
 ## Logos
 
 All images should be roughly 500x500px. .svg is strongly preferred but other options include .png, .jpg, and .jpeg. These logos will not only appear in the cards on tezos.com/ecosystem but also much larger on each individual project's page, so size accordingly.
-
-## Disclaimer
-
-This page and the submission process is currently in beta. While it is possible to submit projects for listing consideration currently, final Application Criteria for listing is expected to be live in early Q2 2022, at which point the submission and listing process will become fully active. 
