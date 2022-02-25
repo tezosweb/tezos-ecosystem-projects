@@ -1,8 +1,8 @@
 ---
 slug: "xp-network"
 date: "2022-02-21"
-project: "Multi-Chain NFT Bridge"
-logline: "A short one-sentence description of your project."
+project: "XP.NETWORK"
+logline: "Multi-Chain NFT Bridge"
 logo: "XPlogo.png"
 tags: "nft,devtools"
 status: "active"
