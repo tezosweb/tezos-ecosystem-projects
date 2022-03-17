@@ -1,0 +1,71 @@
+name: OriginalCheck
+on:
+  pull_request:
+    types:
+      - opened
+      - reopened
+    branches:
+      - main
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout files
+        uses: actions/checkout@5a4ac9002d0be2fb38bd78e4b4dbde5606d7042f
+      - name: check file list
+        run: >
+          gh pr view ${PR_NUMBER} --json files --jq '.files.[].path' |
+          { fatals=0; while read filename ; do
+              echo $filename |
+              egrep -q '(^projects\/[a-zA-Z0-9\_\-]+\.md$)|(^logos\/[a-zA-Z0-9\_\-]+\.(png|svg|jpg|jpeg|PNG|SVG|JPG|JPEG)$)' ||
+              { fatals=1;
+                echo "::error::File $filename in wrong location or does not match expected filenames -- .md in projects folder or .png, .svg, .jpg/.jpeg in logos";
+                gh pr comment ${PR_NUMBER} --body "Filename $filename in wrong location or does not match expected filenames -- .md in projects folder or .png, .svg, .jpg/.jpeg in logos"; }
+              echo $filename | egrep -qi '.md$|.svg$' && egrep -qi "<.*script.*>" $filename &&
+              { fatals=1;
+                echo "::error::File $filename may include scripting; ensure there is no scripting included!";
+                gh pr comment ${PR_NUMBER} --body "WARNING: Filename $filename may include scripting; ensure there is  no scripting included!"; }
+               echo $filename | egrep -qi '.md$|.svg$' &&
+               { for i in $'\u061C' $'\u200E' $'\u200F' $'\u202A' $'\u202B' $'\u202C' $'\u202D' $'\u202E' $'\u2066' $'\u2067' $'\u2068' $'\u2069' ; do
+                   grep $i $filename  &&
+                   { grep $i $filename | od -c ;
+                     fatals=1;
+                     echo "::error::File $filename includes bi-directional characters; not allowed due to trojan source code risk.";
+                     gh pr comment ${PR_NUMBER} --body "Filename $filename includes bi-directional characters; not allowed due to trojan source code risk."; }
+                 done; }
+               echo $filename | egrep -qi '.md$' && egrep -qi '\[.*\]' $filename &&
+                 gh pr comment ${PR_NUMBER} --body "WARNING: Filename $filename may include markdown links between [] chars; remove!";
+               echo $filename | egrep -qi '.md$' && egrep -q 'Project Name|one-sentence desription|projectname' $filename &&
+                 gh pr comment ${PR_NUMBER} --body "WARNING: Filename $filename may include default text for project, logline or logo; remove!";
+            done ;
+            exit $fatals;
+          }
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PR_NUMBER: ${{ github.event.number }}
+      - name: Get frontmatter
+        run: npm install @github-docs/frontmatter
+      - name: lint markdown
+        run: >
+          gh pr view ${PR_NUMBER} --json files --jq '.files.[].path' |
+          egrep  '^projects.*md$' |
+          {
+            fatals=0; msgs=''
+            while read filename; do
+              node ./.github/scripts/mdlint.js $filename |
+               awk -F: '/ERROR|WARNING/ {print $2" "$3}' |
+                { while read trouble ; do
+                    echo $trouble | egrep -q 'ERROR' && {
+                       echo "::error:: linter found $trouble $filename" ;
+                    };
+                    msgs="${msgs}"$'\n'"linter found $trouble $filename";
+                  done
+                  [ -z "$msgs" ] || gh pr comment ${PR_NUMBER} --body "${msgs}" ;
+                  echo $msgs | grep -q ERROR && exit 1 || exit 0;
+                } || fatals=1;
+            done;
+            exit $fatals;
+          }
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PR_NUMBER: ${{ github.event.number }}
