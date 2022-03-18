@@ -6,6 +6,11 @@ on:
       - reopened
     branches:
       - main
+permissions:
+  checks: write
+  pull-requests: write
+  statuses: write
+
 jobs:
   lint:
     runs-on: ubuntu-latest
