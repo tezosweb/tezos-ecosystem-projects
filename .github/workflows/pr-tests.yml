@@ -17,7 +17,7 @@ jobs:
           gh pr view ${PR_NUMBER} --json commits | jq '[.[][].authors | map(.login) |
            add ] | sort | unique | length' | egrep '^1$' ||
             gh pr comment ${PR_NUMBER} --body \
-             "WARNING: Pull request has been commits from multiple authors; verify this is a wanted update."
+             "REVIEWER WARNING: Pull request contains commits from multiple authors; verify this is a wanted update."
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           PR_NUMBER: ${{ github.event.number }}
@@ -33,7 +33,7 @@ jobs:
               echo $filename | egrep -qi '.md$|.svg$' && egrep -qi "<.*script.*>" $filename &&
               { fatals=1;
                 echo "::error::File $filename may include scripting; ensure there is no scripting included!";
-                gh pr comment ${PR_NUMBER} --body "WARNING: Filename $filename may include scripting; ensure there is  no scripting included!"; }
+                gh pr comment ${PR_NUMBER} --body "SUBMITTER WARNING: Filename $filename may include scripting; ensure there is  no scripting included!"; }
                echo $filename | egrep -qi '.md$|.svg$' &&
                { for i in $'\u061C' $'\u200E' $'\u200F' $'\u202A' $'\u202B' $'\u202C' $'\u202D' $'\u202E' $'\u2066' $'\u2067' $'\u2068' $'\u2069' ; do
                    grep $i $filename  &&
@@ -43,9 +43,9 @@ jobs:
                      gh pr comment ${PR_NUMBER} --body "Filename $filename includes bi-directional characters; not allowed due to trojan source code risk."; }
                  done; }
                echo $filename | egrep -qi '.md$' && egrep -qi '\[.*\]' $filename &&
-                 gh pr comment ${PR_NUMBER} --body "WARNING: Filename $filename may include markdown links between [] chars; remove!";
+                 gh pr comment ${PR_NUMBER} --body "SUBMITTER WARNING: Filename $filename may include markdown links between [] chars; remove!";
                echo $filename | egrep -qi '.md$' && egrep -q 'Project Name|one-sentence desription|projectname' $filename &&
-                 gh pr comment ${PR_NUMBER} --body "WARNING: Filename $filename may include default text for project, logline or logo; remove!";
+                 gh pr comment ${PR_NUMBER} --body "SUBMITTER WARNING: Filename $filename may include default text for project, logline or logo; please review!";
             done ;
             exit $fatals;
           }
@@ -65,9 +65,9 @@ jobs:
                awk -F: '/ERROR|WARNING/ {print $2" "$3}' |
                 { while read trouble ; do
                     echo $trouble | egrep -q 'ERROR' && {
-                       echo "::error:: linter found $trouble $filename" ;
+                       echo "::error:: Tezos Ecosystem Map compatibility review: $trouble $filename" ;
                     };
-                    msgs="${msgs}"$'\n'"linter found $trouble $filename";
+                    msgs="${msgs}"$'\n'"Tezos Ecosystem Map compatibility review: $trouble $filename";
                   done
                   [ -z "$msgs" ] || gh pr comment ${PR_NUMBER} --body "${msgs}" ;
                   echo $msgs | grep -q ERROR && exit 1 || exit 0;
