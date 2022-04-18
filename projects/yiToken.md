@@ -1,6 +1,6 @@
 ---
 slug: "yiToken"
-date: "2021-04-01"
+date: "2022-04-17"
 project: "yiToken"
 logline: "Multi-chain Cryptocurrency and NFT wallet"
 logo: "yiToken.png"
