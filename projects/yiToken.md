@@ -2,7 +2,7 @@
 slug: "yiToken"
 date: "2022-04-17"
 project: "yiToken"
-logline: "Multi-chain Cryptocurrency and NFT wallet"
+logline: "yiToken is a Multi-chain Cryptocurrency and NFT wallet, leading users to explore the new world of Blockchain"
 logo: "yiToken.png"
 tags: ""
 status: "active"
