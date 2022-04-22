@@ -1,12 +1,12 @@
 ---
 slug: "hen-radio"
 date: "2022-1-20"
-project: "hen.radio"
+project: "henradio"
 logline: "A Tezos music platform."
-logo: "hen.radio.logo.svg"
+logo: "henradio.logo.svg"
 tags: "nft"
 status: "active"
-website: "https://hen.radio"
+website: "https://henradio.xyz"
 twitter: "https://twitter.com/hen_radio"
 ---
 
