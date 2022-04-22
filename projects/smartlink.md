@@ -1,12 +1,12 @@
 ---
 slug: "smartlink"
-date: "2022-1-20"
+date: "2022-3-30"
 project: "Smartlink"
-logline: "Smartlink is building the future of online transactions and sustainable DeFi."
+logline: "Smartlink is developing a sustainable ecosystem of decentralized escrow applications for Web3"
 logo: "smartlink-logo.svg"
 tags: "defi"
 status: "active"
-website: "https://app.smartlink.so/"
+website: "https://www.smartlink.so/"
 twitter: "https://twitter.com/smartlinkHQ"
 ---
 
