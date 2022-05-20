@@ -1,9 +1,9 @@
 ---
 slug: "dogami"
 date: "2022-1-20"
-project: "Dogami"
+project: "Dogamí"
 logline: "Into the Petaverse! Adopt. Raise. Earn."
-logo: "Dogami_Logo.png"
+logo: "DogamiLogo.png"
 tags: "gaming"
 status: "active"
 website: "https://dogami.com/"
