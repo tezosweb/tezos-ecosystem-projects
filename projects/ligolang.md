@@ -10,4 +10,4 @@ website: "https://ligolang.org/"
 twitter: "https://mobile.twitter.com/LigoLang"
 ---
 
-Logo offers a strong, static type system, the ability for users to write in PascaLIGO, CameLIGO, ReasonLIGO, or add their own syntax, and easy integration like the ability to use LIGO as a Node.js library with Truffle.
+Ligo offers a strong, static type system, the ability for users to write in PascaLIGO, CameLIGO, ReasonLIGO, or add their own syntax, and easy integration like the ability to use LIGO as a Node.js library with Truffle.
