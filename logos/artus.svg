@@ -1,0 +1,9 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1240 1240" width="500" height="500">
+	<title>ARTUS</title>
+	<style>
+		.s0 { fill: #ffffff } 
+		.s1 { fill: #000000 } 
+	</style>
+	<path id="Path 3" class="s0" d="m17.5 620.5l602.5-602.5 602.5 602.5-602.5 602.5zm21.5 0l581-581 581 581-581 581z"/>
+	<path id="Path 4" fill-rule="evenodd" class="s1" d="m620 70l550.5 550.5-550.5 550.5-550.5-550.5zm-86 984l-243.7-372h-128.3zm75 75v-742l-293.8 293.8zm22 0l293.8-448.2-293.8-293.8zm75.1-75.1l371.9-371.9h-128.1z"/>
+</svg>
