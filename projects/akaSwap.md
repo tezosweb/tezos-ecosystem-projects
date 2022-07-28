@@ -2,8 +2,7 @@
 slug: "akaSwap"
 date: "2021-7-13"
 project: "akaSwap"
-logline: "akaSwap is the Asia’s first and largest
-NFT open marketplace on Tezos."
+logline: "akaSwap is the Asia’s first and largest NFT open marketplace on Tezos."
 logo: "akaSwap.svg"
 tags: "nft,community"
 status: "active"
