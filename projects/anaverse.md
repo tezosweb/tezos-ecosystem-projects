@@ -6,7 +6,7 @@ logline: "The anaverse is an open context to load and display generative NFTs mi
 logo: "anaverse.svg"
 tags: "nft, community"
 status: "active"
-website: "https://www.anaver.se/"
+website: "https://anaver.se/"
 twitter: "https://twitter.com/anaglyph_ic"
 ---
 
