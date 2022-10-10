@@ -1,3 +1,4 @@
+---
 slug: "signum"
 date: "2022-10-01"
 project: "signum"
