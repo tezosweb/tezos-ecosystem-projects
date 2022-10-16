@@ -2,7 +2,7 @@
 slug: "cryptonoises"
 date: "2021-8-1"
 project: "CryptoNoises"
-logline: "CryptoNoises is a Bot for Discord and Telegram which analyzes Tezos Blockchain and informs you about your activity and activity of other users"
+logline: "CryptoNoises Bot for Discord and Telegram analyzes Tezos Blockchain and informs you about your activity and activity of other users"
 logo: "CryptoNoises.png"
 tags: "blockexplorers,community,nft"
 status: "active"
