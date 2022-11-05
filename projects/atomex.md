@@ -11,4 +11,4 @@ twitter: "https://twitter.com/atomex_official"
 website: "https://atomex.me/"
 ---
 
-Atomex is a Multicurrency HD-wallet with built-in hybrid exchange provided by atomic swap technology.
+Atomex is a Multicurrency HD-wallet with built-in hybrid exchange provided by atomic swap technology. It supports direct exchange of BTC to TzBTC or Tez, storage and use of NFT, extension of Beacon for interacting with other Tezos Dapps.
