@@ -1,9 +1,9 @@
 ---
 slug: "dipdup"
-date: "2022-02-01"
+date: "2022-10-12"
 project: "DipDup"
 logline: "DipDup is a modular indexing framework for creating powerful dapp-specific APIs."
-logo: ""
+logo: "dipdup.png"
 tags: "devtools"
 status: "active"
 website: "https://dipdup.io"
