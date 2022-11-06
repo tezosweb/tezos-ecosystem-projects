@@ -1,9 +1,9 @@
 ---
 slug: "pytezos"
-date: "2022-02-01"
+date: "2022-10-15"
 project: "PyTezos"
 logline: "Python SDK for Tezos. Micheline REPL and integration testing engine."
-logo: ""
+logo: "pytezos.png"
 tags: "devtools"
 status: "active"
 website: "https://pytezos.org"
