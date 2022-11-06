@@ -1,6 +1,6 @@
 ---
 slug: "better-call-dev"
-date: "2022-1-20"
+date: "2022-9-10"
 project: "Better Call Dev"
 logline: "Tezos Smart Contract Explorer by Baking Bad with cross-network search and interaction engines."
 logo: "BetterCallDev.svg"
