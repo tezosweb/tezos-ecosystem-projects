@@ -1,6 +1,6 @@
 ---
 slug: "tzkt"
-date: "2022-1-20"
+date: "2022-10-25"
 project: "TzKT"
 logline: "Tezos blockchain explorer and API with high data detalization, user-friendly interface and free open-source blockchain indexer. Made by Baking Bad."
 logo: "TzKT.png"
