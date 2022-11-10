@@ -10,5 +10,4 @@ website: "https://netezos.dev"
 twitter: "https://twitter.com/TezosBakingBad"
 ---
 
-Netezos is a cross-platform and fully-fledged Tezos SDK for .NET developers working with cryptographic primitives, Michelson type encoding and more, 
-making interaction with the Tezos blockchain easier.
+Netezos is a cross-platform and fully-fledged Tezos SDK for .NET developers working with cryptographic primitives, Michelson type encoding and more, making interaction with the Tezos blockchain easier.
