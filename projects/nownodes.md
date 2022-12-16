@@ -3,7 +3,7 @@ slug: "NOWNodes"
 date: "2022-11-10"
 project: "NOWNodes"
 logline: "A blockchain as a service for nodes and block explorers via API"
-logo: "NN logo 2 (1).png
+logo: "NOWNodes.png"
 tags: "devtools"
 status: "active"
 website: "http://bit.do/nownodes-tezos"
