@@ -1,5 +1,5 @@
 ---
-slug: "HERE AND NOW"
+slug: "HERENOW"
 date: "2023-2-02"
 project: "HERE & NOW"
 logline: "We take culture and what virtual explorations can do seriously. We create immersive experiences, galleries, events"
