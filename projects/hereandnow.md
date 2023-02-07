@@ -1,8 +1,8 @@
 ---
-slug: "HERE & NOW"
+slug: "HERE AND NOW"
 date: "2023-2-02"
 project: "HERE & NOW"
-logline: "We take culture seriously and are curious what virtual explorations can do. We do this by creating immersive experiences, galleries, and events"
+logline: "We take culture and what virtual explorations can do seriously. We create immersive experiences, galleries, events"
 logo: "hereandnow.svg"
 tags: "nft, community"
 status: "active"
