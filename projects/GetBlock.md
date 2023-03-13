@@ -1,8 +1,8 @@
 ---
 slug: "GetBlock"
-date: "2019-12"
-project: "GetBlock - Blockchain RPC Provider"
-logline: "Simple and reliable API access to Tezos Blockchain"
+date: "2022/12/28"
+project: "GetBlock"
+logline: "Blockchain RPC Provider. Simple and reliable API access to Tezos Blockchain"
 logo: "getblock.svg"
 tags: "devtools"
 status: "active"
