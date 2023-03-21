@@ -2,12 +2,12 @@
 slug: "plenty"
 date: "2022-1-20"
 project: "Plenty"
-logline: "AMM and yield farm on Tezos."
+logline: "A decentralized exchange and cross chain bridge that offers a seamless user experience."
 logo: "Plenty.svg"
 tags: "defi"
 status: "active"
-website: "https://www.plentydefi.com/"
-twitter: "https://mobile.twitter.com/PlentyDeFi"
+website: "https://www.plenty.network/"
+twitter: "https://twitter.com/plenty_network"
 ---
 
-Plenty is expanding DeFi use cases on Tezos towards a full scale decentralized financial ecosystem. Empowering traders, liquidity providers & developers to participate in an open financial marketplace.
+Plenty is a decentralized exchange on Tezos that offers a seamless trading experience. Users can trade, earn, govern and build on the platform. Plenty features both stable and volatile liquidity pools, enables near-zero slippage trades and easy bridging from Ethereum and Polygon.
