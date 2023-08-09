@@ -7,7 +7,6 @@ logo: "tea.svg"
 tags: "devtools"
 status: "active"
 website: "https://github.com/alis-is/tea"
-twitter: ""
 ---
 
 TEA stands for a small, adaptable, and self-contained development environment tailored for Tezos smart contracts. With minimal dependencies, its total size is only around ~1.2MB. The behavior of TEA is determined by `app.hjson`, and adjustments can be made via `ami.lua`. Its self-contained nature allows developers to modify features according to their needs.
