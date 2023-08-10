@@ -4,53 +4,59 @@ This repository serves as the source for the Tezos Ecosystem page at https://tez
 
 # Contributions
 
-Each project must include two files: a Markdown document and a logo. In order to add a new project, please:
+Project submissions must contain two files: a Markdown document and a logo. In order to add a new project:
 
-1. Create a new Markdown file with all project information (see below) in the `projects` folder.
-2. Add an image into the `logos` folder.
-3. Submit a pull request to the main branch for review.
+1. Create a new [Markdown file](#example) with all project information in the `projects` folder.
+2. Add a [logo image](#logos) to the `logos` folder.
+3. Submit a Pull Request (PR) to the `main` branch for review.
 
-If you need to update your project information and logo, please simply update your existing Markdown file (be sure to update the date) and submit a new PR.
+If you are adding more than one project, please submit each as separate PRs.
+
+If you need to update your project information or logo, please update your existing files and submit a new PR.
 
 ## Example
 
-```
+```txt
 ---
 slug: "projectname"
-date: "2022-1-20"
+date: "2022-01-20"
 project: "Project Name"
-logline: "A short one-sentence description of your project."
+logline: "A short one-sentence description of projectname."
 logo: "projectname.svg"
-tags: "defi"
+tags: "defi,community"
 status: "active"
-website: "https://[project-url]"
-twitter: "https://twitter.com/[project-name]"
+website: "https://projectname.com/"
+twitter: "https://twitter.com/projectname"
 ---
 
-A fuller description of your project can be inserted here: think one to two paragraphs.
+A full description of your project can be inserted here.
+
+One or two paragraphs is ideal.
 ```
 
-A `template.md` file has been provided for your convenience at the root of the project. You may copy and fill in with your information.
+A `template.md` file has been provided for your convenience in this project's root folder. You may copy it to the `projects` folder, rename the new file, and add your information.
 
-The following are the optional and required fields in the Markdown frontmatter:
+The following fields are required in the Markdown frontmatter:
 
-- **(required)** `slug`: Page url for your project at tezos.com/ecosystem/slug
-- **(required)** `date`: Date of project addition or most recent update
-- **(required)** `project`: Name of your project
-- **(required)** `logline`: One-sentence project description
-- **(required)** `logo`: Name and file extension of your project's logo (should match what you add to the `logos` folder)
-- **(required)** `tags`: Comma-separated list of zero, one, or more tags that apply to your project. Please include only tags from the list below.
-- **(required)** `status`: One of the following: `under construction`, `active`, or `inactive`
-- **(required)** `website`: Project website URL, including HTTP/HTTPS (required)
-- **(optional)** `twitter`: Project Twitter URL, including HTTP/HTTPS (optional)
+|field|description|
+|-|-|
+|`slug`|page URL for your project at `tezos.com/ecosystem/slug`|
+|`date`|date of project addition or most recent update in `YYYY-MM-DD` format|
+|`project`|name of your project|
+|`logline`|one-sentence project description|
+|`logo`|your project's logo file name and extension (must match the image filename added to the `logos` folder)|
+|`tags`|comma-separated list of zero or more tags that apply to your project. Please only include tags from the [list below](#tags).|
+|`status`|one of the following only: `under construction`, `active`, or `inactive`|
+|`website`|project website URL, including HTTP/HTTPS|
+|`twitter`|*(optional)* project Twitter URL, including HTTPS|
 
 _Note: If any of your text in the above fields includes an escape character, please unescape._
 
-If you are not including a Twitter URL, simply leave the field blank.
+Twitter URLs must start `https://twitter.com/` - please do not use `x.com` or other alternatives. Delete the whole `twitter:` line if you do not have a Twitter account.
 
 Please include a one to two paragraph description below the three dashes – these descriptions will be featured on your dedicated project page.
 
-## Tags
+### Tags
 
 The following are the currently available project tags:
 
@@ -70,4 +76,4 @@ Please use only these tags and watch out for typos. Excluding tags is also an op
 
 ## Logos
 
-All images should be roughly 500x500px. .svg is strongly preferred but other options include .png, .jpg, and .jpeg. These logos will not only appear in the cards on tezos.com/ecosystem but also much larger on each individual project's page, so size accordingly.
+All images should be roughly 500x500px. `.svg` is preferred but a 24-bit transparent `.png` is also an option. `.jpg` or `.jpeg` can be used if there is no alternative. Logos appear in the cards on `https://tezos.com/ecosystem` and on each individual project's page. Please size accordingly.
