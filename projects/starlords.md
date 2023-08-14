@@ -5,7 +5,7 @@ project: "Starlords"
 logline: "Interactive space on-chain NFTs that promote deep relaxation and childlike wonder using VR and AR."
 logo: "starlords.svg"
 tags: "nft, community, gaming"
-status: "active"
+status: "under construction"
 website: "https://Starlords.xyz"
 twitter: "https://twitter.com/Starlordsxyz"
 ---
