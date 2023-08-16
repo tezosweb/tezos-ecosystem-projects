@@ -5,10 +5,11 @@ project: ""
 logline: ""
 logo: ""
 tags: ""
-status: ""
+status: "active"
 website: ""
 twitter: ""
 ---
 
-More detailed project information goes here.
+A full description of your project can be inserted here.
 
+One or two paragraphs is ideal.
